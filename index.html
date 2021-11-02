@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+	<link href="hamburger.css" rel="stylesheet">
+    <title>Enigma</title>
+    <script src="script.js" defer></script>
+</head>
+	<body>
+		<!-- Barre de navigation -->
+		<div class="navbar container">
+			<!-- Partie du logo -->
+			<div class="navbar__logo">
+				<p>Enigma</p><span>.</span>
+			</div>
+
+			<!-- Menu version PC-->
+			<div class="navbar__menu">
+				<ul class="nav__items">
+					<li class="nav__item">
+						<a href="#">Intégration</a>
+					</li>
+					<li class="nav__item">
+						<a href="#">Download</a>
+					</li>
+					<li class="nav__item">
+						<a href="#">Pricing</a>
+					</li>
+					<li class="nav__item">
+						<a href="#">Login</a>
+					</li>
+					<li class="nav__item">
+						<a href="#">Ressources</a>
+					</li>
+				</ul>
+			</div>
+			<!-- Boutton version PC-->
+			<a class="btn" href="#">Try for free</a>
+
+			<!-- Hamburger pour la version mobile-->
+			<div class="navbar__hamburger">
+				<button class="hamburger hamburger--spin" type="button">
+					<span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+					</span>
+				</button>  
+				<!-- Menu pour la version mobile-->
+				<div id="navigation">
+					<ul class="nav__items">
+						<li class="nav__item">
+							<a href="#">Intégration</a>
+						</li>
+						<li class="nav__item">
+							<a href="#">Download</a>
+						</li>
+						<li class="nav__item">
+							<a href="#">Pricing</a>
+						</li>
+						<li class="nav__item">
+							<a href="#">Login</a>
+						</li>
+						<li class="nav__item">
+							<a href="#">Ressources</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- Contenu textuel-->
+		<div class="container">
+			<div class="content__left">
+				<h1>Enigma Software for startups</h1>
+				<p>	<span class="line">Enigma Software template offers</span>
+					<span class="line">you a solution for<span class="break-pc"></span></span>
+					<span class="line">any software website you need.</span>
+					<span class="line">Clean, carefully <span class="break-pc"></span></span>
+					<span class="line">crafted and flexible pages will help</span>
+					<span class="line">to start faster your<span class="break-pc"></span></span>
+					<span class="line">awesome project.</span></p>
+				<div>
+					<a href="#" class="link">Email address</a>
+					<a href="#" class="btn">Early access</a>
+				</div>
+			</div>
+			<div class="content__right"></div>
+
+		</div>
+	</body>
+</html>
